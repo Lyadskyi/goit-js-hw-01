@@ -1,5 +1,3 @@
-"use strict";
-
 function getShippingMessage(country, price, deliveryFee) {
 	const totalPrice = `Shipping to ${country} will cost ${price + deliveryFee} credits`;
 	return totalPrice;
